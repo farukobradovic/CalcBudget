@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <title>CalcBudget v1.1</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row bla">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="addAlert">
+      </div>
+          <h4 class="text-center pt-4">Available Budget in February 2018:</h4>
+          <p class="text-center styleTotalBudget"><span id="totalBudget">0</span></p>
+          <div class="incomeTotal mt-4">
+          <div class="row">
+            <div class="col-sm-7 col-md-7"><p>Income</p>
+            </div>
+            <div class="col-sm-5 col-md-5 biggerLetters incomeBudget">0
+            </div>
+          </div>
+          </div>
+          <div class="expensesTotal mt-2 mb-3">
+          <div class="row">
+            <div class="col-sm-7 col-md-7"><p>Expenses</p>
+            </div>
+            <div class="col-sm-5 col-md-5 biggerLetters expensesBudget">0
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="row colored">
+      <div class="inputsLOL">
+        <div class="row pt-3 pb-3">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <select class="addType">
+              <option value="inc" selected>+</option>
+              <option value="exp">-</option>
+            </select>
+            <input type="text" class="descInput" placeholder="Add description">
+            <input type="number" class="numInput" placeholder="Value">
+            <button class="btnInput"><i class="ion-ios-checkmark-outline"></i></button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-5 col-lg-5 text-center incomeContainer">
+    <h4 class="h4Income highlightGreen">INCOME</h4>
+    </div>
+    <div class="col-md-2 col-lg-2">
+    </div>
+    <div class="col-md-5 col-lg-5 text-center expensesContainer">
+    <h4 class="h4Expenses highlightRed">EXPENSES</h4>
+    </div>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h4{
+  color: #262626;
+}
+.styleTotalBudget{
+  font-size: 35px;
+}
+.incomeTotal{
+  width: 400px;
+  height: 50px;
+  background-color: #28B9B5;
+  border-radius: 5px;
+  color: #f2f2f2;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.incomeTotal p, .expensesTotal p{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #262626;
+}
+.expensesTotal{
+  width: 400px;
+  height: 50px;
+  background-color: #FF5049;
+  border-radius: 5px;
+  color: #f2f2f2;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.biggerLetters{
+  font-size: 20px;
+  margin-top: 2%;
+}
+.bla{
+  background: url('bg3.jpg');
+  background-size: cover;
+  /* border-bottom: 2px solid red; */
+}
+.addType, .descInput, .numInput, .btnInput{
+  height: 60px;
+}
+.addType{
+  width: 60px;
+  margin-right: 10px;
+}
+.descInput{
+  width: 450px;
+  margin-right: 10px;
+}
+.numInput{
+  width: 150px;
+  margin-right: 10px;
+}
+.btnInput{
+  width: 100px;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: #28B9B5;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.1;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btnInput:active{
+  transform: translateY(2px);
+}
+.btnInput:focus{
+  outline:none;
+}
+/* .btnInput i{
+  /* font-size: 60px; */
+  font-size: 40px;
+
+} */
+.btnInput:hover{
+  cursor: pointer;
+}
+.inputsLOL{
+  margin: auto;
+}
+.colored{
+  background-color: #f4f4f4;
+}
+input{
+  text-indent: 10px;
+}
+input:focus{
+  border: 1px solid #28B9B5;
+  outline: none;
+}
+select:focus{
+    border: 1px solid #28B9B5;
+}
+select{
+  text-indent: 10px;
+}
+.itemsDiv{
+  padding: 10px;
+  border-bottom: 1px solid #b3b3b3;
+  font-size: 20px;
+}
+.itemDeleteBtn{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.itemDeleteBtn:focus{
+  outline: none;
+}
+.itemDeleteBtn:active{
+  transform: translateY(2px);
+}
+.h4Income{
+  /* color: #28B9B5; */
+  padding: 20px 0 20px 0;
+}
+.h4Expenses{
+  padding: 20px 0 20px 0;
+}
+.highlightGreen{
+  color: #28B9B5;
+}
+.highlightRed{
+  color: #FF5049;
+}
+.red-focus:focus{border:1px solid #FF5049 !important;}
+.red{color: #FF5049 !important;}
+.cutted{
+  width: 50%;
+  margin: auto;
+}
